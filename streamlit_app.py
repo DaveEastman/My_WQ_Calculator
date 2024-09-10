@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("🎈 WQ Calculators")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Calculates the interest and final amount owed based on start and end dates, interest and starting amount owed."
 )
+st.sidebar.success("Select calculator")
