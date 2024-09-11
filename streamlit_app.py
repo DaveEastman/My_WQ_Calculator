@@ -13,4 +13,13 @@ with st.sidebar:
         options=["Home", "All Interest", "Norgan", "Date Changes"],
     )
 
+if selected == "All Interest":
+    st.title(f"Interest Calculator")
+
+if selected == "Norgan":
+    st.title(f"Norgan Calculator")
+
+if selected == "Date Change":
+    st.title(f"Date Change Calculator")
+
 st.sidebar.success("Select calculator")
