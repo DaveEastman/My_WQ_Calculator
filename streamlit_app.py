@@ -22,4 +22,3 @@ if selected == "Norgan":
 if selected == "Date Changes":
     st.title(f"Date Change Calculator")
 
-st.sidebar.success("Select calculator")
