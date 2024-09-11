@@ -19,7 +19,7 @@ if selected == "All Interest":
 if selected == "Norgan":
     st.title(f"Norgan Calculator")
 
-if selected == "Date Change":
+if selected == "Date Changes":
     st.title(f"Date Change Calculator")
 
 st.sidebar.success("Select calculator")
