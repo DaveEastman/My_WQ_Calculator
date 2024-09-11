@@ -10,7 +10,7 @@ st.write(
 with st.sidebar:
     selected = option_menu(
         menu_title="Main Menu",
-        options=["Home", "All Interest", "Norgan", "Date Changes"],
+        options=["All Interest", "Norgan", "Date Changes"],
     )
 
 if selected == "All Interest":
